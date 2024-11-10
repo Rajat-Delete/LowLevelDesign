@@ -1,0 +1,21 @@
+So this principle says that
+
+If class B is subtype of class A then we should be able to replace object of A with B without breaking
+the behaviour of the program.
+
+Subclasses should extend the capabilities of the Parent class not narrow it down.
+child class should increase feature rather than decreasing.
+
+-- Now in Problem Statement
+So Bike and Bicycle has extended the capabilities of the two wheeler Interface but the Bicycle has narrowed
+it down.
+Hence it is breaking the Liskov substitution principle.
+
+
+-- solution
+so first in parent class/Interface put only generic method which are common for all.
+separate the common method of child classes in a separate class/Interface and now child classes will be implementing
+the Interface or class.
+
+Now while calling from Main Method only those method will be available which are there in parent class or Interface.
+

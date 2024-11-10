@@ -1,0 +1,11 @@
+This Principle says that a class is always open for extension but it is always closed for modification.
+
+-- Now in Problem Statement
+We have a Invoice Class and suppose it is there in Live and working. Now we have to introduce new methods in the
+same class.
+If we add the new methods in the same class then it can potentially break the code of Live and break our open closed
+principle.
+
+-- Solution
+To avoid such cases, we should always make a new Interface and our class is going to implement the new Interface.
+

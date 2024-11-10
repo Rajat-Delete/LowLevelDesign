@@ -1,0 +1,14 @@
+So this principle says that a class should have only one reason to change.
+If there are multiple reason due to which class is getting modified then it is breaking the principle.
+
+
+-- Now in the Problem Statement
+The Printer class has multiple reasons to get change like if there is a change in the calulation of the Bill,
+or there is a change in the Saving the Data of the Bill or printing the Bill.
+So it breaks the Single Responsiblity Pattern.
+
+
+
+-- Solution
+The Solution can be of split the methods in Seperate classes which will be responsible for their Individual
+work.

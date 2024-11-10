@@ -1,0 +1,12 @@
+So this principle suggest that the class should depend on Interfaces rather than concrete classes.
+
+-- Now in Problem Statement
+Consider We have two Interfaces Mouse and Keyboard and both of the Interfaces are implementing 2-2 concrete classes
+as Wired keyboard, mouse and Bluetooth Keyboard,mouse.
+
+Now in some class if we have bounded keyboard or mouse object to WiredConcrete classes only then we can't modify the object
+later on
+Eg. in Macbook class we need to always pass object of Wired mouse and keyboard in constructor.So we have bounded.
+
+-- Solution
+The Solution to the below problem is to depend on Interface rather than concrete Classes.

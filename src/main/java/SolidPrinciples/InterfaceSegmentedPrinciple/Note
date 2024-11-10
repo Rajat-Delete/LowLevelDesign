@@ -1,0 +1,12 @@
+So this principle states that client should not implement unnecessary functions that they don't need.
+If we can break Interface into smaller pieces so that every class will implement their own methods.
+
+-- Now in Problem Statement
+Waiter class has to implement all the method of the Restaurant Employee Interface inspire of not having the feature.
+so this is breaking the Interface Segmentation principle.
+
+-- Solution
+Break Restaurant Employee Interface into smaller sets of Interface so that Individual class need to implement their own
+methods only.
+
+
